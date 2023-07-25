@@ -1,0 +1,22 @@
+{
+  "name": "users-manager",
+  "version": "1.0.0",
+  "description": "users manager in mern",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node api/server.js",
+    "serve": "nodemon run api/server.js"
+  },
+  "author": "Aminem",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
